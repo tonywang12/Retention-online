@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Title</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src ="jquery-ui.js"></script>
+<script>
+$(document).ready(function() { 
+    $('#stage').hide();
+    $('#start').hide();
+    $('#stage').fadeIn(5000);   
+    $('#start').fadeIn(8000); 
+
+});
+</script>
+</head>
+<body>
+<div id ="stage">
+<h1>Retention</h1>
+<h2>
+    <a id="start" href="tutorial.html">Start</a>
+</h2>
+
+
+
+</div>
+<audio autoplay loop id="music">
+    <source src="audio/01 Title.mp3" type="audio/mp3">
+</audio>
+
+<div id="footer">
+    <p>This is a University Project by Tony Wang. This is purely for showcase purposes, most images and audio are from third parties. </p>
+    
+    <p>Contact: tonywang3421@gmail.com</p>
+</div>
+</body>
+</html>
